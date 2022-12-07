@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Band</title>
+    <style>
+      #nav-list {
+        display: flex;
+        background: rgb(0, 0, 0);
+        margin: 0;
+        padding: 1rem 0;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      #nav-item {
+        list-style: none;
+        margin-right: 2rem;
+      }
+      #nav-item a {
+        text-decoration: none;
+        color: white;
+      }
+      #nav-item:hover {
+        background-color: ##cccccc;
+      }
+      #content {
+        text-align: center;
+      }
+      #personel {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        max-width: 960px;
+        margin: 0 auto;
+        grid-column-gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <div id="navbar">
+      <nav>
+        <ul id="nav-list">
+          <li id="nav-item"><a href="#">HOME</a></li>
+          <li id="nav-item"><a href="#">BAND</a></li>
+          <li id="nav-item"><a href="#">TOUR</a></li>
+          <li id="nav-item"><a href="#">CONTACT</a></li>
+          <li id="nav-item"><a href="#">MORE</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Navbar end -->
+    <!-- banner1  -->
+    <div id="banner">
+      <img src="la.jpg" alt="Band at LA" width="100%" height="100%" />
+    </div>
+    <!-- banner1 end -->
+    <!-- content1 start -->
+    <div id="content">
+      <h2>THE BAND</h2>
+      <p><em>We love music</em></p>
+      <p>
+        We have created a fictional band website. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+    <!-- content1 end -->
+
+    <!-- personel start-->
+    <div id="personel">
+      <img src="bandmember.jpg" alt="member" />
+      <img src="bandmember.jpg" alt="member" />
+      <img src="bandmember.jpg" alt="member" />
+    </div>
+    <!-- personel end -->
+
+    <!-- ticket start -->
+    <div id="tickets">
+      <h2>TOUR DATES</h2>
+      <p><em>Remember to book your tickets</em></p>
+    </div>
+    <!-- ticket end -->
+
+    <!-- contact start -->
+    <div id="contact">
+      <h2>CONTACT</h2>
+      <p><em>Fan? Drop a note!</em></p>
+    </div>
+    <!-- contact end -->
+
+    <!-- footer start -->
+    <div id="footer"></div>
+    <!-- footer end -->
+  </body>
+</html>
