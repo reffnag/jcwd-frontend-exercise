@@ -4,6 +4,7 @@ nav a {
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
+  color: white;
 }
 
 nav a:hover {
@@ -78,12 +79,12 @@ nav {
   top: 0;
 }
 
-nav a {
+/* nav a {
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
   color: white;
-}
+} */
 
 body {
   font-family: "Quicksand", sans-serif;
